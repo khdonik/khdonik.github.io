@@ -3,6 +3,7 @@
 var canvas = document.getElementsByTagName('canvas')[0];
 
 canvas.width = canvas.clientWidth;
+canvas.height = canvas.clientHeight;
 
 var config = {
   TEXTURE_DOWNSAMPLE: 1,
